@@ -23,7 +23,7 @@
 ;;      (add-hook 'rust-mode-hook #'lsp-rust-enable))
 ;;
 ;; You may want to customize the command that lsp-rust uses to launch the RLS.
-;; See `lsp-rust-rust-command'.
+;; See `lsp-rust-rls-command'.
 
 ;;; Code:
 
