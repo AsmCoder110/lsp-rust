@@ -14,6 +14,7 @@ your init file:
 
 ```emacs-lisp
 (with-eval-after-load 'lsp-mode
+  ;; Substitute your default rustup toolchain in place of 'nightly'.
   (setq lsp-rust-rls-command '("rustup" "run" "nightly" "rls"))
   (require 'lsp-rust))
 ```
